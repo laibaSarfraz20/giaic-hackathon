@@ -44,7 +44,7 @@ const products = [
   },
 ];
 
-const Product = () => {
+const Producttwo = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center mb-10">NEW ARRIVALS</h1>
@@ -55,6 +55,7 @@ const Product = () => {
               src={product.image}
               alt={product.title}
               className="w-full h-64 object-cover mb-4 rounded-md"
+              
             />
             <h2 className="text-lg font-semibold mb-2">{product.title}</h2>
             <div className="flex items-center mb-2">
@@ -89,4 +90,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Producttwo;

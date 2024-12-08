@@ -4,11 +4,11 @@ import { faTwitter, faFacebook, faInstagram, faPinterest } from '@fortawesome/fr
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-gray-100 py-12">
+    <footer className="bg-gray-100 py-12">
   <div className="container mx-auto px-4">
-    <div className="flex flex-wrap justify-between items-start">
+    <div className="flex justify-between items-start">
       {/* Section 1 */}
-      <div className="w-full md:w-1/4 mb-8 md:mb-0">
+      <div className="flex-1 mx-2 mb-8 md:mb-0">
         <h3 className="text-xl font-bold mb-4">SHOP.CO</h3>
         <p>
           We have clothes that suit your style and that you're proud to wear. From women to men.
@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       {/* Section 2 */}
-      <div className="w-full md:w-1/4 mb-8 md:mb-0">
+      <div className="flex-1 mx-2 mb-8 md:mb-0">
         <h3 className="text-xl font-bold mb-4">COMPANY</h3>
         <ul>
           <li className="mb-2"><a href="#" className="text-gray-600">About</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       {/* Section 3 */}
-      <div className="w-full md:w-1/4 mb-8 md:mb-0">
+      <div className="flex-1 mx-2 mb-8 md:mb-0">
         <h3 className="text-xl font-bold mb-4">HELP</h3>
         <ul>
           <li className="mb-2"><a href="#" className="text-gray-600">Customer Support</a></li>
@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
 
       {/* Section 4 */}
-      <div className="w-full md:w-1/4 mb-8 md:mb-0">
+      <div className="flex-1 mx-2 mb-8 md:mb-0">
         <h3 className="text-xl font-bold mb-4">FAQ</h3>
         <ul>
           <li className="mb-2"><a href="#" className="text-gray-600">Account</a></li>
@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
 
       {/* Section 5 */}
-      <div className="w-full md:w-1/4 mb-8 md:mb-0">
+      <div className="flex-1 mx-2 mb-8 md:mb-0">
         <h3 className="text-xl font-bold mb-4">RESOURCES</h3>
         <ul>
           <li className="mb-2"><a href="#" className="text-gray-600">Free eBooks</a></li>

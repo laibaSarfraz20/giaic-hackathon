@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Product from "./components/Product";
 import Style from "./components/Style";
 import Reviews from "./components/Reviews";
+import Email from "./components/Email";
 import Foot from "./components/Foot";
 
 export default function Home() {
@@ -17,7 +18,11 @@ export default function Home() {
       <br />
       <Style />
       <br />
+      <Product />
+      <br />
       <Reviews/>
+      <br />
+      <Email/>
       <br />
       <Foot />
     </div>
