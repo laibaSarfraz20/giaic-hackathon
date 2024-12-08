@@ -27,22 +27,22 @@ const Navbar = () => {
           <div className="lg:hidden w-full mt-4">
             <ul className="flex flex-col items-center space-y-4">
               <li>
-                <Link href="./cart" className="hover:underline">
+                <Link href="./Catergories" className="hover:underline">
                   Shop
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="./Catergories" className="hover:underline">
                   On Sale
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="./Catergories" className="hover:underline">
                   New Arrivals
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="./Catergories" className="hover:underline">
                   Brands
                 </Link>
               </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <ul className="hidden lg:flex space-x-8">
           <li>
-            <Link href="./cart" className="hover:underline">
+            <Link href="./Categories" className="hover:underline">
               Shop
             </Link>
           </li>
