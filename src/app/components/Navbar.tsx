@@ -27,10 +27,7 @@ const Navbar = () => {
           <div className="lg:hidden w-full mt-4">
             <ul className="flex flex-col items-center space-y-4">
               <li>
-                <Link
-                  href="./cart"
-                  className="hover:underline"
-                >
+                <Link href="./cart" className="hover:underline">
                   Shop
                 </Link>
               </li>
@@ -82,7 +79,12 @@ const Navbar = () => {
             placeholder="Search for products..."
             className="border rounded-full px-4 py-1"
           />
-          <FontAwesomeIcon icon={faShoppingCart} size="lg" />
+          <a
+            href="./AddtoCart"
+            title="Go to Cart"
+          >
+            <FontAwesomeIcon icon={faShoppingCart} size="lg" />
+          </a>
           <FontAwesomeIcon icon={faUser} size="lg" />
         </div>
       </div>
