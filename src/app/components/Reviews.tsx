@@ -18,7 +18,7 @@ const Reviews = () => {
               </div>
               <span className="ml-2 font-bold">Sarah M. <i className="fas fa-check-circle text-green-500"></i></span>
             </div>
-            <p>&quot;I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.&quot;</p>
+            <p>&quot;I&apos;m blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;</p>
           </div>
           <div className="bg-white border rounded-lg p-6 shadow-md w-80">
             <div className="flex items-center mb-4">
@@ -44,7 +44,7 @@ const Reviews = () => {
               </div>
               <span className="ml-2 font-bold">James L. <i className="fas fa-check-circle text-green-500"></i></span>
             </div>
-            <p>&quot;As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.&quot;</p>
+            <p>&quot;As someone who&apos;s always on the lookout for unique fashion pieces, I&apos;m thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.&quot;</p>
           </div>
         </div>
       </section>
@@ -53,4 +53,3 @@ const Reviews = () => {
 };
 
 export default Reviews;
-
