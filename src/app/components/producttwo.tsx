@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 
@@ -56,9 +57,11 @@ const Producttwo = () => {
         {products.map((product) => (
           <div key={product.id} className="bg-white p-6 rounded-lg shadow-md">
             <a href={product.link} target="_blank" rel="noopener noreferrer">
-              <img
+              <Image
                 src={product.image}
                 alt={product.title}
+                width={300} 
+                height={300} 
                 className="w-full h-64 object-cover mb-4 rounded-md"
               />
             </a>
@@ -98,3 +101,4 @@ const Producttwo = () => {
 };
 
 export default Producttwo;
+
