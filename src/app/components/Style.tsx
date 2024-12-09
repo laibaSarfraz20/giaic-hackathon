@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Style: React.FC = () => {
   return (
@@ -17,10 +18,12 @@ const Style: React.FC = () => {
             { alt: "Gym dress style", label: "Gym" }
           ].map((style, index) => (
             <div key={index} className="relative">
-              <img
+              <Image
                 src="https://placehold.co/600x400"
                 alt={style.alt}
                 className="w-full h-full object-cover rounded-lg"
+                width={600}  // Specify width for optimization
+                height={400} // Specify height for optimization
               />
               <div className="absolute bottom-2 left-2 text-black font-bold">
                 {style.label}
@@ -34,4 +37,5 @@ const Style: React.FC = () => {
 };
 
 export default Style;
+
 

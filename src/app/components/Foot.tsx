@@ -48,7 +48,7 @@ const Footer = () => {
               <ul>
                 <li className="mb-2"><a href="#" className="text-gray-600">Customer Support</a></li>
                 <li className="mb-2"><a href="#" className="text-gray-600">Delivery Details</a></li>
-                <li className="mb-2"><a href="#" className="text-gray-600">Terms & Conditions</a></li>
+                <li className="mb-2"><a href="#" className="text-gray-600">Terms &amp; Conditions</a></li>
                 <li className="mb-2"><a href="#" className="text-gray-600">Privacy Policy</a></li>
               </ul>
             </div>
@@ -92,4 +92,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

@@ -28,7 +28,7 @@ const ReviewCard = ({ review }: { review: { name: string, date: string, text: st
             <span className="ml-2 text-green-500"><i className="fas fa-check-circle"></i></span>
         </div>
         <h3 className="text-lg font-semibold mb-2">{review.name}</h3>
-        <p className="text-gray-700 mb-4">"{review.text}"</p>
+        <p className="text-gray-700 mb-4">{`"${review.text}"`}</p>
         <p className="text-gray-500">Posted on {review.date}</p>
         <div className="absolute top-4 right-4 text-gray-400"><i className="fas fa-ellipsis-h"></i></div>
     </div>

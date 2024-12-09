@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Email from "../components/Email";
 import Footer from "../components/Foot";
@@ -104,9 +105,11 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
-      <img
+      <Image
         src={product.image}
         alt={product.name}
+        width={300}
+        height={200}
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
       <h2 className="text-lg font-medium mb-2">{product.name}</h2>
