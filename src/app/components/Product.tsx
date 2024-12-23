@@ -1,12 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import One from '../assests/one.png';
+import Two from '../assests/two.png';
+import Three from '../assests/three.png';
+import Four from '../assests/four.png';
+
 
 const products = [
   {
     id: 1,
     title: "T-shirt with Tape Details",
-    image: "https://example.com/image1.jpg",
+    image: One,
     price: 120,
     rating: 4.5,
     discount: null,
@@ -16,7 +21,7 @@ const products = [
   {
     id: 2,
     title: "Skinny Fit Jeans",
-    image: "https://example.com/image2.jpg",
+    image: Two,
     price: 240,
     rating: 3.5,
     discount: 20,
@@ -26,7 +31,7 @@ const products = [
   {
     id: 3,
     title: "Checkered Shirt",
-    image: "https://example.com/image3.jpg",
+    image:Three,
     price: 180,
     rating: 4.5,
     discount: null,
@@ -36,7 +41,7 @@ const products = [
   {
     id: 4,
     title: "Sleeve Striped T-shirt",
-    image: "https://example.com/image4.jpg",
+    image: Four,
     price: 130,
     rating: 4.5,
     discount: 30,
