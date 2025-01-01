@@ -1,5 +1,6 @@
 
 import Image from 'next/image'; 
+import HomePage from '../assests/Homepage.jpg';
 
 
 const Header = () => {
@@ -28,7 +29,7 @@ const Header = () => {
           {/* Image Section */}
           <div className="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
             <Image
-              src ="../assests/Homepage.jpg"
+              src ={HomePage}
               alt="A stylish man and woman wearing fashionable clothes"
               className="w-full max-h-[663px] object-cover rounded-lg"
               width={600} 

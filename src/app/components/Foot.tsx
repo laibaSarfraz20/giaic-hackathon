@@ -80,10 +80,10 @@ const Footer = () => {
           <div className="flex justify-between items-center mt-8">
             <p className="text-gray-600">Shop.co © 2000-2023, All Rights Reserved</p>
             <div className="flex space-x-4">
-              <Image src="https://placehold.co/40x20" alt="Visa" width={40} height={20} />
-              <Image src="https://placehold.co/40x20" alt="MasterCard" width={40} height={20} />
-              <Image src="https://placehold.co/40x20" alt="PayPal" width={40} height={20} />
-              <Image src="https://placehold.co/40x20" alt="Apple Pay" width={40} height={20} />
+              <Image src="" alt="Visa" width={40} height={20} />
+              <Image src="" alt="MasterCard" width={40} height={20} />
+              <Image src="" alt="PayPal" width={40} height={20} />
+              <Image src="" alt="Apple Pay" width={40} height={20} />
             </div>
           </div>
         </div>

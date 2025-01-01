@@ -17,8 +17,8 @@ const CartItem: React.FC<CartItemProps> = ({ image, title, size, color, price })
           src={image}
           alt={title}
           className="rounded-lg"
-          layout="fill" // Ensures the image covers the container without distortion
-          objectFit="cover" // Maintains aspect ratio and scales image as needed
+          layout="fill"
+          objectFit="cover" 
         />
       </div>
       <div className="flex-1 ml-4">
